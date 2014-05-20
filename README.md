@@ -18,22 +18,18 @@ Note: Express is required to create a server Socket.io is required to send chat 
 ## Installation
 
 
-1. First install the node.js distribution for your operating system.
+* First install the node.js distribution for your operating system.
 
-2. Once Node is installed, you can use npm (node package manager) to install the remaining dependencies. Open a command prompt and run the following commands:
+* Once Node is installed, you can use npm (node package manager) to install the remaining dependencies. Open a command prompt and run the following commands: a) npm install express b) npm install socket.io c) npm install ejs
 
-* npm install express 
-* npm install socket.i
-* npm install ejs
+* Open a command window inside the 'chat' directory and type "node server.js". This will run the server on port 1200 of localhost. You can change the port from line 3 of server.js
 
-3. Open a command window inside the 'chat' directory and type "node server.js". This will run the server on port 1200 of localhost. You can change the port from line 3 of server.js
+* Open a browser window and navigate to http://127.0.0.1:1200/
 
-4. Open a browser window and navigate to http://127.0.0.1:1200/
+* Set your name for chat
 
-5. Set your name for chat
+* Open another browser window at http://127.0.0.1:1200/ and set your name
 
-6. Open another browser window at http://127.0.0.1:1200/ and set your name
-
-7. Send messages. You will be able to see messages across the two browser windows.
+* Send messages. You will be able to see messages across the two browser windows.
 
 
